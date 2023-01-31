@@ -1,0 +1,13 @@
+age = input("What is your age? ")
+
+if age.isdigit() and int(age) > 0 and int(age) < 117:
+    if int(age) >= 18:
+        print("You are old enough to buy tickets for any movie")
+    elif int(age) < 18 and int(age) >= 15:
+        print("You can buy tickets for films rated U, PG, 12 and 15")
+    elif int(age) < 15 and int(age) >=12:
+        print("You can buy tickets for films rated U, PG, and 12")
+    else:
+        print("You can buy tickets for any U rated films but adult supervision for PG rated films")
+else:
+    print("The value you've entered is invalid, please enter your age in digits")
