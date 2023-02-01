@@ -2,11 +2,12 @@
 
 # While loop monitors data rather than iterate
 
-x = 0
-
+# x = 0
+#
 # while x < 10:
-#     print(f"It's working -> {x}")
-#     x += 3 # incrementer
+#      print(f"It's working -> {x}")
+#       x +=3
+# incrementer
 
 # Using break
 
